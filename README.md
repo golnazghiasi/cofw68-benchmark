@@ -1,4 +1,4 @@
-## COFW 68 keypoint annotations for COFW data
+## 68 keypoint annotations for COFW test data
 
 This repository contains manually annotated 68 keypoints for COFW
 test data (original annotation of [CFOW dataset](http://www.vision.caltech.edu/xpburgos/ICCV13/)
@@ -21,10 +21,10 @@ To visualize the annotations execute "VisualizeAnnotations.m"
 
 #### Evaluate your method
 
-To evaluate your model, create a file that contains the landmark localization
+To evaluate your model, create a text file that contains the landmark localization
 predictions (and their visibilities). Then specify its address and name in Main.m and
 execute the Main file.
-For each image  there should be 4 lines. The first line should contain
+For each image there should be 4 lines in the text file. The first line should contain
 the image index (in COFW_test.mat). The second, third and fouth lines should contains
 x, y and occlusion state of each keypoint, respectively.
 
