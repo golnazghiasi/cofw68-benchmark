@@ -27,8 +27,8 @@ file_names{end+1} = 'Results/HPM_HelenLfpw_COFW68test.txt';
 method_names{end+1} = 'HPM(HELEN,LFPW)';
 
 % Ghiasi G, Fowlkes CC, Using segmentation to predict the absence of occluded parts, BMVC 2015
-file_names{end+1} = 'Results/SDM_COFW68.txt';
-method_names{end+1} = 'SDM(HELEN)';
+file_names{end+1} = 'Results/SAPM_COFW68.txt';
+method_names{end+1} = 'SAPM(HELEN)';
 
 % Zhu, Shizhan and Li, Cheng and Loy, Chen Change and Tang, Xiaoou,
 % Face Alignment by Coarse-to-Fine Shape Searching, CVPR 2015
